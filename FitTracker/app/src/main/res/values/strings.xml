@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">FitTracker</string>
-    <string name="title_activity_step_goal">StepGoalActivity</string>
-    <string name="title_activity_gender_selection">GenderSelectionActivity</string>
-</resources>
