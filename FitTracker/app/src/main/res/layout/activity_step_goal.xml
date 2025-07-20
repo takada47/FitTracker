@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".StepGoalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Установите Вашу ежедневную цель по шагам"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <RadioGroup
+        android:id="@+id/stepGoalRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/radio3000_5000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Для начинающих: 3 000 – 5 000 шагов в день"
+            android:textSize="18sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radio5000_7000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Для людей старше 50 лет: 5 000 – 7 000 шагов в день"
+            android:textSize="18sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radio6000_8000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Для поддержания здоровья: 6 000 – 8 000 шагов в день"
+            android:textSize="18sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radio12000_15000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Для похудения и выносливости: 12 000 – 15 000 шагов в день"
+            android:textSize="18sp"
+            android:paddingVertical="8dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/saveGoalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить цель"
+        android:textSize="20sp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"/>
+
+</LinearLayout>
